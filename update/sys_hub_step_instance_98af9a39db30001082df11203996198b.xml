@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-30 15:52:21</sys_created_on>
         <sys_id>98af9a39db30001082df11203996198b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Call IPInfo REST API</sys_name>
         <sys_package display_value="IPInfo Spoke" source="x_417160_ipinfo_sp">fc8e5271db30001082df1120399619ff</sys_package>
         <sys_policy/>
         <sys_scope display_value="IPInfo Spoke">fc8e5271db30001082df1120399619ff</sys_scope>
         <sys_update_name>sys_hub_step_instance_98af9a39db30001082df11203996198b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-30 16:31:11</sys_updated_on>
+        <sys_updated_on>2019-10-30 17:27:33</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=98af9a39db30001082df11203996198b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -117,10 +117,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-30 16:01:46</sys_created_on>
         <sys_id>c2c162b9db30001082df112039961928</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-30 16:01:46</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[]}</value>
+        <sys_updated_on>2019-10-30 17:27:33</sys_updated_on>
+        <value>{}</value>
         <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -216,11 +216,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-30 16:01:46</sys_created_on>
         <sys_id>8ec162b9db30001082df112039961927</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-30 16:01:46</sys_updated_on>
+        <sys_updated_on>2019-10-30 17:27:33</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
+        <value>{"type":"ADV_NV","value":[{"name":"token","value":"{{step[71216b57-7539-4bae-9a2a-9bf1a8c1075f].u_ipinfo_token}}","attributes":{"omit_if_empty":false}}]}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>resource_path</field>
